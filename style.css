@@ -72,6 +72,8 @@ nav{
   list-style: none;
   font-size: 20px;
   font-family: 'Poppins',sans-serif;
+  padding: 5px 5px;
+  border-radius: 2px;
 }
 .page-links  a {
   text-decoration: none;
@@ -86,6 +88,11 @@ nav{
   margin-right: 5px;
   transform: translateY(-10px);
   font-weight: bolder;
+}
+.active-page{
+  border-bottom: 2px solid #C424FF;
+  background: #FF4412B8;
+  color:white
 }
 .mobile-search{
   display: none;
