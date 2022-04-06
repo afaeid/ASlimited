@@ -1,0 +1,73 @@
+@media only screen and (max-width:400px){
+nav{
+  background:#252525;
+  height: 65px;
+}
+.header .logo img{
+  width: 50px;
+}
+.serch {
+  display: none;
+}
+.header .menu-icon{
+  display: inline;
+}
+.header .menu-icon i{
+  font-size: 35px;
+  font-weight: bolder;
+  color: #fff;
+}
+.page-links{
+  display: flex;
+  flex-direction: column;
+}
+.page-links a li i{
+  display: none;
+}
+.page-links a li{
+  color:#fff;
+  border-bottom: 1px solid #777;
+  padding: 0 5px;
+  padding-bottom: 10px;
+  font-family: baloda;
+}
+.page-links a {
+  width: 100%;
+  /* display: block; */
+  padding: 0 5px;
+  margin: 5px 0;
+  /* border-bottom: 1px solid green; */
+  /* overflow: hidden; */
+}
+.page-links{
+  margin-top: 10px;
+  display: none;
+}
+.mobile-search{
+  /* display: block; */
+  display: block;
+  padding: 0 10px;
+}
+.mobile-search input{
+  width: 100%;
+  /* margin: 0 20px; */
+  height: 35px;
+  border: 1px solid whitesmoke;
+  background: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0 10px;
+  outline: none;
+  font-family: baloda;
+}
+.mobile-search input:focus{
+  /* box-shadow: 0 0 0px 2px #2D3FFF; */
+  border: 1px solid #2D3FFF;
+  background: #676767;
+}
+::placeholder{
+  font-size: 15px;
+  color: #fff;
+  font-family: baloda;
+}
+}

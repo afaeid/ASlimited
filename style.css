@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media(prefers-reduced-motion:no-preference){
+  :root{
+    scroll-behavior: smooth;
+  }
+}
+@font-face{
+  src: url(fonts/baloda.ttf);
+  font-family: baloda;
+}
+.cus-pointer{
+  cursor: pointer;
+}
+.container{
+  
+}
+nav{
+  background: #fff;
+  padding: 5px 5px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo img{
+  width: 75px;
+}
+.header .menu-icon{
+  display: none;
+}
+.serch{
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+.serch input{
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 30px;
+  width: 230px;
+  color:rgba(155, 96, 255, 1);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 10px;
+}
+::placeholder{
+  font-size: 18px;
+  color:#E84CFF;
+  font-weight: lighter
+}
+.serch i{
+  /* margin: 0 5px; */
+  font-size: 20px;
+  /* margin-right: 10px; */
+}
+.page-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.page-links li {
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Poppins',sans-serif;
+}
+.page-links  a {
+  text-decoration: none;
+  color: #777;
+  font-weight: bold;
+}
+.page-links a li:hover, .page-links a li:focus{
+  border-bottom: 1px solid #42445A;
+}
+.page-links a li i {
+  font-size: 20px;
+  margin-right: 5px;
+  transform: translateY(-10px);
+  font-weight: bolder;
+}
+.mobile-search{
+  display: none;
+}
