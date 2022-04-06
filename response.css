@@ -59,6 +59,8 @@ nav{
   padding: 0 10px;
   outline: none;
   font-family: baloda;
+  font-size: 15px;
+  
 }
 .mobile-search input:focus{
   /* box-shadow: 0 0 0px 2px #2D3FFF; */
