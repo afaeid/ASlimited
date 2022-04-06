@@ -78,7 +78,7 @@ nav{
 .page-links  a {
   text-decoration: none;
   color: #777;
-  font-weight: bold;
+  font-weight: normal;
 }
 .page-links a li:hover, .page-links a li:focus{
   border-bottom: 1px solid #42445A;
@@ -90,7 +90,7 @@ nav{
   font-weight: bolder;
 }
 .active-page{
-  border-bottom: 2px solid #C424FF;
+  border-bottom: 3px solid #C424FF;
   background: #FF4412B8;
   color:white
 }
