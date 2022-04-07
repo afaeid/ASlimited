@@ -10,7 +10,7 @@
   }
 }
 @font-face{
-  src: url(fonts/baloda.ttf);
+  src: url(../fonts/baloda.ttf);
   font-family: baloda;
 }
 .cus-pointer{
