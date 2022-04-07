@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap'); */
 *{
   margin: 0;
   padding: 0;
@@ -9,9 +9,14 @@
     scroll-behavior: smooth;
   }
 }
+/*fonts*/
 @font-face{
   src: url(../fonts/baloda.ttf);
   font-family: baloda;
+}
+@font-face{
+  src: url(../fonts/titillium.ttf);
+  font-family: titillium;
 }
 .cus-pointer{
   cursor: pointer;
