@@ -1,6 +1,7 @@
 @media only screen and (min-width:320px) and (max-width:480px){
 nav{
-  background:#252525;
+  /* background:#252525; */
+  background: #21222EF6;
   height: 65px;
 }
 .header .logo img{

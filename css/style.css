@@ -25,7 +25,7 @@
   
 }
 nav{
-  background: #fff;
+  background: #21222EF7;
   padding: 5px 5px;
 }
 .header{
@@ -40,7 +40,7 @@ nav{
   display: none;
 }
 .serch{
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 5px;
   padding: 5px 10px;
   display: flex;
@@ -68,13 +68,15 @@ nav{
   /* margin: 0 5px; */
   font-size: 20px;
   /* margin-right: 10px; */
-  border-right: 1px solid #000;
+  border-right: 1px solid #fff;
   padding-right: 5px;
+  color: #fff;
 }
 .page-links{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 20px;
 }
 .page-links li {
   list-style: none;
@@ -85,7 +87,7 @@ nav{
 }
 .page-links  a {
   text-decoration: none;
-  color: #777;
+  color: #fff;
   font-weight: normal;
 }
 .page-links a li:hover, .page-links a li:focus{
