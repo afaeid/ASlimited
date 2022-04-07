@@ -63,6 +63,8 @@ nav{
   /* margin: 0 5px; */
   font-size: 20px;
   /* margin-right: 10px; */
+  border-right: 1px solid #000;
+  padding-right: 5px;
 }
 .page-links{
   display: flex;
