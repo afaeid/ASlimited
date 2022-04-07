@@ -10,4 +10,7 @@
     height: 25px;
     font-size: 15px
   }
+  ::placeholder{
+    font-size:15px;
+  }
 }
