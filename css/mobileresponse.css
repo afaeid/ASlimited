@@ -73,4 +73,10 @@ nav{
   color: #fff;
   font-family: baloda;
 }
+.webpng img{
+  width: 300px;
+}
+.webpng-footer p{
+  font-size: 30px;
+}
 }

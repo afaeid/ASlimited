@@ -1,0 +1,21 @@
+@keyframes left-to-right {
+  from {
+    opacity: 0%;
+    margin-left: -150px;
+  }
+
+  to {
+    opacity: 100%;
+    margin-left: 0px;
+  }
+}
+@keyframes bottom-to-up{
+  from{
+    opacity:0%;
+    margin-bottom: -150px;
+  }
+  to{
+    opacity: 100%;
+    margin-bottom: 0px;
+  }
+}

@@ -107,3 +107,31 @@ nav{
 .mobile-search{
   display: none;
 }
+.webpng{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.webpng img{
+  width: 500px;
+  animation: left-to-right 2s linear 1
+}
+
+.webpng-footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.webpng-footer p{
+  width: 500px;
+  font-size: 50px;
+  text-align: center;
+  font-family: titillium;
+  font-weight: bolder;
+  transform: translateY(-100px);
+  animation: bottom-to-up 2s linear 1;
+}
