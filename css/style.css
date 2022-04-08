@@ -19,6 +19,11 @@
   src: url(../fonts/titillium.ttf);
   font-family: titillium;
 }
+::selection{
+  /* background: linear-gradient(#FF5B41,#FF955D); */
+  background: #FF633B;
+  color: #fff;
+}
 .loader-screen{
   width: 100%;
   height: 100vh;
@@ -127,7 +132,9 @@ nav{
 }
 .webpng img{
   width: 500px;
-  animation: left-to-right 2s linear 1
+  animation: left-to-right 2s linear 1;
+  cursor: pointer;
+  pointer-events: none;
 }
 
 .webpng-footer{
@@ -145,4 +152,6 @@ nav{
   font-weight: bolder;
   transform: translateY(-100px);
   animation: bottom-to-up 2s linear 1;
+  cursor: pointer;
+  pointer-events: none;
 }
