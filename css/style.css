@@ -41,7 +41,7 @@
   position: fixed;
   top: 80%;
   left: 88%;
-  border-radius: 5px;
+  border-radius: 50%;
   background: #FF4141;
   color: #fff;
   border: none;
@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: center;
   padding: 8px;
-  box-shadow: 0 0 10px 5px #FFFFFF;
+  box-shadow: 0 0 10px 5px #fff;
 }
 .go-up:hover, .go-up:focus{
   box-shadow: 0 0  8px #5A68FF;
@@ -60,7 +60,6 @@
   cursor: pointer;
 }
 .container{
-  
 }
 nav{
   background: #21222EF7;
