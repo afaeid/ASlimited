@@ -1,6 +1,9 @@
 @media only screen and (min-width:481px) and (max-width:768px){
   .go-up{
     left: 80%;
+    width: 60px;
+    height: 60px;
+    
   }
   .page-links li{
     font-size: 15px;
@@ -15,5 +18,11 @@
   }
   ::placeholder{
     font-size:15px;
+  }
+  .webpng img{
+    width: 350px;
+  }
+  .webpng-footer p{
+    font-size: 40px;
   }
 }
