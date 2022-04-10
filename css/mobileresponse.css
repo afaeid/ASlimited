@@ -79,10 +79,19 @@ nav{
   color: #fff;
   font-family: baloda;
 }
+.wlcm-msg{
+  font-size: 40px;
+  transform: translateY(80px);
+  height: 80px;
+}
+.wlcm-msg p{
+     animation: show-from-middle 2s linear 1;
+}
 .webpng img{
   width: 300px;
 }
 .webpng-footer p{
   font-size: 30px;
+  transform: translateY(-180px)
 }
 }
