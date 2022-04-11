@@ -90,8 +90,20 @@ nav{
 .webpng img{
   width: 300px;
 }
+.webpng-footer{
+  height: 100px;
+}
 .webpng-footer p{
   font-size: 30px;
-  transform: translateY(-180px)
+  transform: translateY(-120px)
 }
+
+
+
+
+
+
+
+
+
 }

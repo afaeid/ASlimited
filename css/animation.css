@@ -32,6 +32,34 @@
     border-right: 3px solid #4C4C4C;
   }
 }
+@keyframes infiniteColor{
+  
+  25%{
+   background: -webkit-linear-gradient(20deg,#B511FF,#FF3A11);
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text; 
+  }
+  50%{
+   background: -webkit-linear-gradient(20deg,#FF3A11,#B511FF);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip:text;
+  }
+  75%{
+    background: -webkit-linear-gradient(20deg,#3CC709,#F200FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+  }
+  100%{
+    background: -webkit-linear-gradient(20deg,#FF3A11,#B511FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+  }
+}
+
+
+
+
+
 @media only screen and (max-width:480px){
   @keyframes show-from-middle{
   from{
