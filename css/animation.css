@@ -1,3 +1,10 @@
+@keyframes spin{
+  to{
+    transform: rotate(1turn);
+  }
+}
+
+
 @keyframes left-to-right {
   from {
     opacity: 0%;
