@@ -4,3 +4,6 @@
 .mobile-menu-list-open{
   display: block;
 }
+.navigator-view{
+  visibility: visible
+}

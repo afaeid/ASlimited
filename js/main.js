@@ -4,10 +4,6 @@ window.onload = ()=> {
   headLoader.style.display = 'none';
 }
 
-
-
-
-
 /*    Toggle menu open function    */
 var menuIco = document.querySelector('.menu-icon');
 var nav = document.querySelector('nav');
@@ -16,8 +12,11 @@ menuIco.onclick = function(){
   nav.classList.toggle('mobile-menu-open');
   pageLinks.classList.toggle('mobile-menu-list-open');
 } 
-
+/*func of up naviagtor*/
 var upNavigatior = document.querySelector('.go-up');
  window.onscroll = ()=> {
-   upNavigatior.classList.toggle('navigator-view',window.scrollY > 200)
+   upNavigatior.classList.toggle('navigator-view',window.scrollY > 200);
+   /*Only for testing perpouse*/
+   var abc = window.scrollY;
+    console.log(abc);
  }
