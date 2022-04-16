@@ -16,3 +16,8 @@ menuIco.onclick = function(){
   nav.classList.toggle('mobile-menu-open');
   pageLinks.classList.toggle('mobile-menu-list-open');
 } 
+
+var upNavigatior = document.querySelector('.go-up');
+ window.onscroll = ()=> {
+   upNavigatior.classList.toggle('navigator-view',window.scrollY > 200)
+ }
