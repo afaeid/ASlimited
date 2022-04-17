@@ -60,8 +60,9 @@
   justify-content: center;
   padding: 8px;
   box-shadow: 0 0 10px 5px #fff;
-  visibility: hidden;
-  /* transition: all 1s; */
+  /* visibility:hidden; */
+  transition: all 1s;
+  opacity: 0%;
 }
 .go-up:hover, .go-up:focus{
   box-shadow: 0 0  8px #5A68FF;
